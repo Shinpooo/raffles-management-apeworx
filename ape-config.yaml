@@ -1,0 +1,7 @@
+name: playground
+default_ecosystem: polygon
+
+geth:
+  polygon:
+    mainnet:
+      uri: https://polygon-mainnet.g.alchemy.com/v2/6GDghuCkQ_1imah-XuqZg0jgh75sKyka
