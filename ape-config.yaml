@@ -1,7 +1,17 @@
 name: playground
-default_ecosystem: polygon
+default_ecosystem: ethereum
 
 geth:
   polygon:
     mainnet:
       uri: https://polygon-mainnet.g.alchemy.com/v2/6GDghuCkQ_1imah-XuqZg0jgh75sKyka
+
+dependencies:
+  - name: OpenZeppelin
+    github: OpenZeppelin/openzeppelin-contracts
+    version: 4.7.3
+
+
+solidity: 
+  import_remapping:
+    - "@openzeppelin=OpenZeppelin/4.7.3"
